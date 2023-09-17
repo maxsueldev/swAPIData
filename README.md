@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/maxsueldev/swAPIData?color=green)
 
 ## Sobre o projeto
-swAPIData é um projeto envolvendo uma API do Star Wars, onde uso o Axios com requisição GET para pegar dados e exibí-los na tela
+swAPIData é um projeto envolvendo uma API do Star Wars, onde utilizo o Axios com requisição GET para pegar dados e exibí-los na tela
 
 <br>
 
