@@ -10,8 +10,9 @@ swAPIData é um projeto envolvendo uma API do Star Wars, onde utilizo o Axios co
 
 ### Layout 
 
-![Print screen swAPIData](img/print/print1.png)
-![Print screen swAPIData](img/print/print2.png)
+![Print screen swAPIData](assets/print/print1.png)
+![Print screen swAPIData](assets/print/print2.png)
+![Print screen swAPIData](assets/print/print3.png)
 
 <br>
 
