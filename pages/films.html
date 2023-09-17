@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SW Films</title>
+    <link rel="stylesheet" href="../style/contents.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="info-container container-content">
+        <!-- title, director, producer, release_date -->
+        
+        <h1 class="titleValue"></h1>
+        
+        <ul class="content-list">
+            <li>
+                <span>Director: </span>
+                <p class="directorValue"></p>
+            </li>
+            <li>
+                <span>Producer: </span>
+                <p class="producerValue"></p>
+            </li>
+            <li>
+                <span>Release Date: </span>
+                <p class="releaseDateValue"></p>
+            </li>
+        </ul>
+
+        <div class="next">
+            <a class="to-home" href="../index.html">Home</a>
+            
+            <button id="button" class="button">
+                Random Film
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/films.js"></script>
+</body>
+</html>

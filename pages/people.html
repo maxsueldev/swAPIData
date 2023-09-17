@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SW People</title>
+    <link rel="stylesheet" href="../style/contents.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="info-container container-content">
+        <!-- name, height, mass, hair color, skin color, eye color, gender -->
+        
+        <h1 class="nameValue"></h1>
+        
+        <ul class="content-list">
+            <li>
+                <span>Gender: </span>
+                <p class="genderValue"></p>
+            </li>
+            <li>
+                <span>Height: </span>
+                <p class="heightValue"></p>
+            </li>
+            <li>
+                <span>Mass: </span>
+                <p class="massValue"></p>
+            </li>
+            <li>
+                <span>Hair Color: </span>
+                <p class="hairColorValue"></p>
+            </li>
+            <li>
+                <span>Eye Color: </span>
+                <p class="eyeColorValue"></p>
+            </li>
+        </ul>
+        <div class="next">
+            <a class="to-home" href="../index.html">Home</a>
+            
+            <button id="button" class="button">
+                Random Person 
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/people.js"></script>
+</body>
+</html>

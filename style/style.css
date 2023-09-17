@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+    background: url('../assets/background.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Poller One', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.container-index {
+    width: 23rem;
+    height: 20rem;
+}
+
+.info-container {
+    background-color: #f0f2f5;
+    border-radius: 2.5em;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 4em 0;
+}
+
+h1 {
+    font-size: 1.6em;
+    margin: 0 auto;
+}
+
+.list-index {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2.8rem;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.list-index ul {
+    list-style: none;
+}
+
+.list-index ul a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #414242;
+}
+
+.list-index ul a:hover {
+    color: red;
+}

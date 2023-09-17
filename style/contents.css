@@ -1,0 +1,43 @@
+.info-container {
+    padding: 2em 0 !important;
+}
+
+.container-content {
+    width: 30rem;
+    height: 28rem;
+}
+
+.content-list {
+    margin: 2rem 5rem;
+}
+
+.content-list li {
+    display: flex;
+    line-height: 2.2rem;
+}
+
+.content-list li span {
+    margin-right: 1rem;
+}
+
+.next {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 10rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.to-home {
+    text-decoration: none;
+    color: #414242;
+}
+
+.to-home:hover {
+    color: red;
+}

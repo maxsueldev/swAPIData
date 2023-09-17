@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SW Vehicles</title>
+<link rel="stylesheet" href="../style/contents.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="info-container container-content">
+        <!-- name, model, cost in credits, max atmosphering speed, passengers, vehicle class -->
+        <h1 class="nameValue"></h1>
+
+        <ul class="content-list">
+            <li>
+                <span>Model: </span>
+                <p class="modelValue"></p>
+            </li>
+            <li>
+                <span>Const in credits: </span>
+                <p class="costInCreditsValue"></p>
+            </li>
+            <li>
+                <span>Max atmosphering speed: </span>
+                <p class="maxAtmospheringSpeedValue"></p>
+            </li>
+            <li>
+                <span>Passengers: </span>
+                <p class="passengersValue"></p>
+            </li>
+            <li>
+                <span>Vehicle class: </span>
+                <p class="vehicleClassValue"></p>
+            </li>
+        </ul>
+
+        <div class="next">
+            <a href="../index.html" class="to-home">Home</a>
+            <button class="button">Random Vehicle</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/vehicles.js"></script>
+</body>
+</html>

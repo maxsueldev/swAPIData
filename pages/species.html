@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SW Species</title>
+    <link rel="stylesheet" href="../style/contents.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="info-container container-content">
+        <!-- name, classification, designation, average height, skin colors, language -->
+        <h1 class="nameValue"></h1>
+        <ul class="content-list">
+            <li>
+                <span>Classification: </span>
+                <p class="classificationValue"></p>
+            </li>
+            <li>
+                <span>Designation: </span>
+                <p class="designationValue"></p>
+            </li>
+            <li>
+                <span>Average Height: </span>
+                <p class="averageHeightValue"></p>
+            </li>
+            <li>
+                <span>Skin Colors: </span>
+                <p class="skinColorsValue"></p>
+            </li>
+            <li>
+                <span>Language: </span>
+                <p class="languageValue"></p>
+            </li>
+        </ul>
+
+        <div class="next">
+            <a class="to-home" href="../index.html">Home</a>
+            <button class="button">Random Specie</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/species.js"></script>
+</body>
+</html>
